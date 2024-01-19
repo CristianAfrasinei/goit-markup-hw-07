@@ -111,6 +111,7 @@ div {
 
 ul {
     padding: 0%;
+    margin: 0;
 }
 
 .logo {
@@ -121,7 +122,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue);
-    margin-right: 76px;
 }
 
 .link {
@@ -604,6 +604,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 .lastdivclass {
     display: flex;
     gap: 16px;
+    justify-content: center;
+    list-style-type: none;
 }
 
 .lastdivelement{
@@ -632,6 +634,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .lastsocial {
     fill: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline-end: 0%;
 }
 
 .modal-cls {

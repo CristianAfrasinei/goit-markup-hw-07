@@ -135,7 +135,7 @@
         </div>
       </div>
     </header>
-    
+
     <main>
       <!-- Effective Solutions for Your Business -->
       <section class="first section hero">
@@ -484,20 +484,21 @@
             </li>
         </ul>
       </div>
-      <div class="form-div">
-        <p class="sbsc">Subscribe</p>
+      <div class="form-div subscribe-section" id="mysubscribe">
+          <p class="sbsc subscribe-text tablet--size">Subscribe</p>
         <form
           class="subs-class"
           name="signup_form"
           autocomplete="on"
           novalidate
         >
-          <label class="lbl">
+          <label class="lbl lbl-clss">
             <input
               type="email"
               name="email"
-              class="placeh"
-              placeholder="E-mail">
+              class="placeh input-clss"
+              placeholder="E-mail"
+              id="myPH">
           </label>
           <button type="submit" class="btn-subscribe">
             Subscribe
@@ -520,7 +521,7 @@
         <!-- FORM -->
         <form>
           <!-- NAME -->
-          <div class="form-div">
+          <div class="form-div class2 classdv" id="myDiv">
             <label class="lbl" for="user-name">Name</label>
             <div class="icn">
               <input id="user-name" type="text" class="name" name="user-name">
@@ -530,7 +531,7 @@
             </div>
           </div>
           <!-- PHONE -->
-          <div class="form-div">
+          <div class="form-div class2 classdv" id="myDiv">
             <label class="lbl" for="user-name">Phone</label>
             <div class="icn">
               <input
@@ -545,7 +546,7 @@
           </div>
           <!-- E-mail -->
 
-          <div class="form-div">
+          <div class="form-div class2 classdv" id="myDiv">
             <label class="lbl" for="user-name">Email</label>
             <div class="icn">
               <input id="user-mail" type="text" class="name" name="user-name">
@@ -589,5 +590,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script defer src="./mobile.js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+      ></script>
   </body>
 </html>
