@@ -1773,3 +1773,135 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                    
 
    }
+
+   @media screen and (max-width: 1158px) {
+
+
+    .section-five {
+
+        width: 168px;
+            height: 88px;
+            
+    }
+
+    .cust-class {
+
+        padding-bottom: 20px;
+    }
+
+    .footlogo {
+
+        margin-left: 20px;
+        margin-right: 60px;
+    }
+
+    .last-description {
+
+        color: var(--CLOUD, #F4F4FD);
+        
+            /* Body */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+            width: 264px;
+    }
+
+    .container {
+
+        overflow-x: hidden;
+    }
+
+    .form-div {
+
+        margin-left: 40px;
+    }
+
+    .classdv {
+
+        margin-left: 0;
+    }
+
+
+
+}
+
+/* .top-line {
+
+display: inline-flex;
+     height: 72px; 
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0; */
+
+
+/* .index {
+
+color: var(--OCEAN, #404BBF);
+
+   
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    
+    letter-spacing: 0.32px; */
+
+
+/* .last-link {
+
+color: var(--NAVY-BLUE, #2E2F42);
+
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+   
+    letter-spacing: 0.32px; */
+
+
+/* .abs-link::after {
+
+bottom: -7px;
+}  */
+
+/* .tablet-address {
+
+    display: block;
+        margin-bottom: 10px;
+} */
+
+/* .mail-tablet {
+
+color: var(--SLATE, #434455);
+
+    
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    
+    letter-spacing: 0.48px;
+    padding-bottom: 0;           } 
+
+
+
+/* color: var(--SLATE, #434455); 
+
+   
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+   
+    letter-spacing: 0.48px;
+    padding-bottom: 0;
+*/
