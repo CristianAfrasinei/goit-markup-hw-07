@@ -866,7 +866,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
     }
     
-    .placeh {
+    .place {
      /* width: 100%; */
         width: 264px;
         height: 40px;
@@ -913,7 +913,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         fill: #fff
     }
     
-    .div-p {
+    .divp {
     
         font-weight: 500;
         font-size:16px;
@@ -926,7 +926,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     }
     
-    .form-div {
+    .formdiv {
     
         margin-bottom: 8px;
          /* margin-left: 100px; */
@@ -945,7 +945,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-right: 0;
     }
     
-    .icn {
+    .iconn {
     
         position: relative;
     }
@@ -1015,12 +1015,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border-color: #4d5ae5;
     }
     
-    .cbox {
+    .checkkbox {
     
         margin-bottom: 24px;
     }
     
-    .cbox label {
+    .checkkbox label {
     
         display: block;
     }
@@ -1058,7 +1058,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: var(--button-color);
     }
     
-    .btn-subs {
+    .btnsubs {
     
         display: block;
         min-width: 169px;
@@ -1447,12 +1447,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                     margin: 0;
                 }
 
-                .form-div {
+                .formdiv {
 
                     margin-right: 100px;
                 }
 
-                /* .placeh {
+                /* .place {
 
                     width: 400px;
                 } */
@@ -1771,7 +1771,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                            justify-content: center;
                    }
 
-                   .form-div {
+                   .formdiv {
 
                        /* margin-right: 240px; */
                        padding-top: 80px;
@@ -1858,12 +1858,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         overflow-x: hidden;
     }
 
-    .form-div {
+    .formdiv {
 
         margin-left: 40px;
     }
 
-    .classdv {
+    .class--div {
 
         margin-left: 0;
     }
