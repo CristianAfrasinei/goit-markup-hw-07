@@ -112,7 +112,7 @@
     }
 
 
-        .main--first--btn {
+        .mainnbtn {
     
             background: var(--OCEAN, #404BBF);
         }
@@ -123,7 +123,7 @@
     
         }
 
-                   .interface--concept {
+                   .interfaceconcept {
         
                        color: var(--NAVY-BLUE, #2E2F42);
         
@@ -137,7 +137,7 @@
                        letter-spacing: 0.4px;
                    }
         
-                   .small--title {
+                   .second1title {
         
                        color: var(--SLATE, #434455);
         
@@ -151,18 +151,18 @@
                        letter-spacing: 0.32px;
                    }
 
-                   .row--list {
+                   .rlist {
 
                     display: flex;
                         flex-wrap: wrap;
                    }
 
-                   .row--element {
+                   .r1element {
 
                     width: 300px;
                    }
 
-                    .second-title-card {
+                    .sectittle {
 
                     color: var(--NAVY-BLUE, #2E2F42);
                     
@@ -186,7 +186,7 @@
                         width: 300px;
                     }
 
-                    .portfolio--header {
+                    .portfheader {
 
                         border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
                             background: var(--WHITE, #FFF);
@@ -197,13 +197,13 @@
 
 @media screen and (max-width: 1158px) {
 
-    .cards--list {
+    .crdlist {
 
         column-gap: 10px
            
 }
 
-.main--first--btn {
+.mainnbtn {
 
     background: var(--OCEAN, #404BBF);
 }
