@@ -499,7 +499,7 @@ ul {
  }
 
 .last-element {
-   max-width:100%;
+   max-width: 100%;
 }
 
 .hero {
@@ -513,7 +513,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 #Customers {
     width: 168px;
-    height:88px;
+    height: 88px;
 }
 
 .frsticn {
@@ -531,10 +531,16 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     gap: 24px;
 }
 
-.media {
+
+.inst {
+    width: 40px;
+    height: 40px;
+}
+
+.media1 {
     width: 100%;
     height: 100%;
-    background-color: #4d5ae5;
+    background-color: var(--button-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -543,21 +549,23 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inst {
-    width: 40px;
-    height: 40px;
-}
-
-.media:hover {
-background-color: #404bbf;
-} 
-
-.media:focus{
+.media1:hover {
     background-color: #404bbf;
 }
 
+.media1:focus {
+    background-color: #404bbf;
+}
+
+
+
 .firstr {
     fill: var(--light-color);
+}
+
+.social {
+    list-style: none;
+    padding-inline-start: 0%;
 }
 
 .cust-class {
@@ -579,6 +587,7 @@ background-color: #404bbf;
     list-style-type: none;
     flex-shrink: 0;
     gap: 24px;
+    margin-bottom: 120px;
 }
 
 .section-five {
@@ -670,12 +679,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lastsocial {
-    fill: #f4f4fd;
+    fill: var(--light-color);
     display: flex;
     align-items: center;
     justify-content: center;
     padding-inline-end: 0%;
 }
+
+
 
 .modal-cls {
 
@@ -929,7 +940,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .formdiv {
     
         margin-bottom: 8px;
-         /* margin-left: 100px; */
+         /* margin-left: 100px; */;
     
     }
     
@@ -1020,7 +1031,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-bottom: 24px;
     }
     
-    .checkb label {
+    .checkkb label {
     
         display: block;
     }
