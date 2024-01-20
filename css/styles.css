@@ -1316,7 +1316,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         .hero {
             
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/img15.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office.jpg);
            
         }
 
@@ -1329,6 +1329,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         .first-row-list {
 
             display: block;
+        }
+
+        .title-first-element {
+
+            margin: auto;
         }
 
         .titlefour {
